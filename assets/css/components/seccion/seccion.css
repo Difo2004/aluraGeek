@@ -1,0 +1,60 @@
+@import url("../../base/_variables.css");
+
+.apartados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 60px 0px 0px; */
+}
+
+.seccion {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin-top: 60px;
+    
+}
+
+.seccion__encabezado {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion__enlace {
+    color: var(--boton-color);
+    font: bold 1.1rem var(--fuente-principal)
+}
+
+.seccion__titulo {
+    color: var(--producto-titulo-color);
+    font: bold 1.8rem var(--fuente-principal);
+}
+
+.seccion__cuerpo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion__elementos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 260px;
+}
+
+.seccion__elementos-imagen {
+    width: 176px;
+    align-self: stretch;
+}
+
+.seccion__elementos-nombre {
+    color: var(--producto-titulo-color);
+    /* font: 550 1.05rem var(--fuente-principal) */
+    font: 500 15px var(--fuente-principal)
+}
+
+.seccion__elementos-precio {
+    font: bold 18px var(--fuente-principal)
+    /* font: bold 1.12rem var(--fuente-principal) */
+}

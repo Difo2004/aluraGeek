@@ -1,0 +1,39 @@
+@import url("../../base/_variables.css");
+
+.header__nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 20px;
+    width: 500px;
+}
+
+.header__input {
+    border-top-left-radius: var(--barraBusqueda-border);
+    border-bottom-left-radius: var(--barraBusqueda-border);
+
+    outline: none;
+    padding: var(--barraBusqueda-padding);
+    font-family: 'Roboto', sans-serif;
+    
+    width: 300px;
+    border-width: 0px;
+    background: var(--barraBusqueda-background);
+}
+
+.header__input::placeholder {
+    color: var(--barraBusqueda-color);
+}
+
+.header__submit {
+    border-top-right-radius: var(--barraBusqueda-border);
+    border-bottom-right-radius: var(--barraBusqueda-border);
+
+    padding: var(--barraBusqueda-padding);
+    position: relative;
+    right: 4px;
+    color: var(--barraBusqueda-color);
+    border-width: 0px;
+    background: var(--barraBusqueda-background);
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+.header__login {
+    padding: .5rem 3.5rem;
+    color: var(--boton-color);
+    background: none;
+    font-size: 1.05rem;
+}
+
+.header__login:hover {
+    background: var(--boton-color);
+    color: var(--body-background);
+}

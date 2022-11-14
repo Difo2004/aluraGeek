@@ -1,0 +1,68 @@
+@import url("./menu.css");
+@import url("./login.css");
+@import url("./logo.css");
+@import url("../../base/_variables.css");
+
+.boton {
+    border: 1.5px solid var(--boton-color);
+    border-radius: 3px;
+    font-family: var(--fuente-principal);
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    transition: .8s ease all;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-evenly;    
+    /* width: 100%; */
+    height: auto;
+    align-items: center;
+    padding: 10px;
+}
+
+.header__logo img {
+    width: 8.5rem;
+}
+
+.header__banner {
+    background: url("../../../img/banner.png") center / cover no-repeat;  
+    /* width: 100%; */
+    height: 300px;
+    padding: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.header__iformacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 160px;
+    width: 80%;
+}
+
+.header__titulo {
+    color: var(--banner-titulo-color);
+    font: bold 48px var(--fuente-principal);
+}
+
+.header__descripcion {
+    color: var(--body-background);
+    font: bold 1.15rem var(--fuente-principal);
+}
+
+.header__boton {
+    color: var(--body-background);
+    background: var(--boton-color);
+    padding: .5rem 1rem;
+    width: 150px;
+}
