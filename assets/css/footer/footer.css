@@ -1,0 +1,26 @@
+@import url("../base/_variables.css");
+
+.footer__contenido {
+    margin-top: 60px;
+    display: flex;
+    padding: 40px 50px;
+    background: var(--footer-background);
+    flex-flow: column wrap;
+    height: 200px;
+}
+
+.footer__logo {
+    width: 176px;
+    height: 50px;
+}
+
+.footer__info {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.footer__elemento {
+    font: 500 1.08rem var(--fuente-principal);
+}

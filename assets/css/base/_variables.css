@@ -13,5 +13,8 @@
     --barraBusqueda-color: #7f8c8d;
     --barraBusqueda-padding: 10px 15px;
     /* Login */
-    --boton-color: #0652DD;
+    --boton-color: #0652dd;
+    --boton-color-hover: #0984e3;
+
+    --footer-background: #EAF2FD;
 }

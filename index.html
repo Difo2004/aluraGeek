@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="./assets/css/base/reset.min.css">
     <link rel="stylesheet" href="./assets/css/base/normalize.min.css">
     <!-- <link rel="stylesheet" href="./assets/css/base/base.css"> -->
-    <link rel="stylesheet" href="./assets/css/components/header/header.css">
-    <link rel="stylesheet" href="./assets/css/components/seccion/seccion.css">
+    <link rel="stylesheet" href="/assets/css/components/components.css">
+    <link rel="stylesheet" href="/assets/css/header/header.css">
+    <link rel="stylesheet" href="/assets/css/seccion/seccion.css">
+    <link rel="stylesheet" href="/assets/css/footer/footer.css">
 </head>
 <body>
     <header class="header">
@@ -32,7 +34,7 @@
             <div class="header__iformacion">
                 <h2 class="header__titulo">Diciembre promocional</h2>
                 <p class="header__descripcion">Productos seleccionados con 33% de descuento</p>
-                <button type="button" class="header__boton boton">Ver consolas</button>
+                <button type="button" class="boton boton__principal">Ver consolas</button>
             </div>
         </div>
     </header>
@@ -155,7 +157,7 @@
         </div>
         <div class="seccion diversos">
             <div class="seccion__encabezado">
-                <h3 class="seccion__titulo">Consolas</h3>
+                <h3 class="seccion__titulo">Diversos</h3>
                 <p class="seccion__verTodo">
                     <a href="#" class="seccion__enlace">Ver todo     <i class="fa-solid fa-arrow-right"></i></a>
                 </p>
@@ -212,5 +214,30 @@
             </ul>
         </div>
     </section>
+    <footer class="footer">
+        <div class="footer__contenido">
+            <img src="./assets/img/Logo.png" alt="" loading="lazy" class="footer__logo">
+            <ul class="footer__info">
+                <li class="footer__elemento">Quienes somos</li>
+                <li class="footer__elemento">Politica de privacidad</li>
+                <li class="footer__elemento">Programa de fidelidad</li>
+                <li class="footer__elemento">Nuestras tiendas</li>
+                <li class="footer__elemento">Quiero ser franquiciado</li>
+                <li class="footer__elemento">Anuncie aqui</li>
+            </ul>
+            <form action="" class="footer__formulario">
+                <div class="input__container">
+                    <input type="text" placeholder="Nombre" class="input">
+                    <label for="" class="input-label">Nombre</label>
+                </div>
+                <div class="input__container">
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+        <div class="footer__creador">
+
+        </div>
+    </footer>
 </body>
 </html>

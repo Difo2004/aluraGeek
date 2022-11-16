@@ -1,17 +1,7 @@
 @import url("./menu.css");
 @import url("./login.css");
 @import url("./logo.css");
-@import url("../../base/_variables.css");
-
-.boton {
-    border: 1.5px solid var(--boton-color);
-    border-radius: 3px;
-    font-family: var(--fuente-principal);
-    cursor: pointer;
-    outline: none;
-    height: 50px;
-    transition: .8s ease all;
-}
+@import url("../base/_variables.css");
 
 .header {
     display: flex;
@@ -21,7 +11,6 @@
 .header__menu {
     display: flex;
     justify-content: space-evenly;    
-    /* width: 100%; */
     height: auto;
     align-items: center;
     padding: 10px;
@@ -32,8 +21,7 @@
 }
 
 .header__banner {
-    background: url("../../../img/banner.png") center / cover no-repeat;  
-    /* width: 100%; */
+    background: url("/assets/img/banner.png") center / cover no-repeat;  
     height: 300px;
     padding: 30px;
     
@@ -58,11 +46,4 @@
 .header__descripcion {
     color: var(--body-background);
     font: bold 1.15rem var(--fuente-principal);
-}
-
-.header__boton {
-    color: var(--body-background);
-    background: var(--boton-color);
-    padding: .5rem 1rem;
-    width: 150px;
 }

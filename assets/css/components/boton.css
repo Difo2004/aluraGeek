@@ -1,0 +1,23 @@
+@import url("../base/_variables.css");
+
+.boton {
+    border: 1.5px solid var(--boton-color);
+    border-radius: 3px;
+    font-family: var(--fuente-principal);
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    transition: .8s ease all;
+}
+
+.boton__principal {
+    color: var(--body-background);
+    background: var(--boton-color);
+    padding: .5rem 1rem;
+    width: 150px;
+}
+
+.boton__principal:hover {
+    background: var(--boton-color-hover);
+    border-color: var(--boton-color-hover);
+}
