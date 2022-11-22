@@ -9,3 +9,11 @@
     background: var(--boton-color);
     color: var(--body-background);
 }
+
+@media screen and (max-width: 768px) {
+    .header__login {
+        font-size: .95rem;
+        padding: .1rem 3.5rem;
+        height: 2.8rem;
+    }
+}

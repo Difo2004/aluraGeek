@@ -75,5 +75,32 @@
     .footer__formulario {
         width: 65%;
     }
+}
 
+@media screen and (max-width: 660px) {
+
+    .footer__contenido {
+        padding: 40px 20px;
+    }
+
+    .footer__formulario {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .footer__contenido {
+        height: calc(70px + var(--footer-contenido-width) * 2);
+        align-content: center ;
+        margin-top: 10px;
+    }
+
+    .footer__info {
+        text-align: center;
+    }
+
+    .footer__formulario {
+        margin-top: 1.6rem;
+        width: 95%;
+    }
 }
