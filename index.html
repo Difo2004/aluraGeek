@@ -18,9 +18,9 @@
     <header class="header">
         <div class="header__menu">
             <nav class="header__nav">
-                <h2 class="header__logo">
-                    <img src="./assets/img/Logo.png" alt="Logo de la pagina web">
-                </h2>
+                <h1 class="header__principal">
+                    <img  class="header__logo" src="./assets/img/Logo.png" alt="Logo de la pagina web">
+                </h1>
                 <form class="header__barraBusqueda">
                     <input type="search" class="header__input" placeholder="¿Qué deseas buscar?">
                     <button type="submit" class="header__submit">
@@ -218,21 +218,36 @@
         <div class="footer__contenido">
             <img src="./assets/img/Logo.png" alt="" loading="lazy" class="footer__logo">
             <ul class="footer__info">
-                <li class="footer__elemento">Quienes somos</li>
-                <li class="footer__elemento">Politica de privacidad</li>
-                <li class="footer__elemento">Programa de fidelidad</li>
-                <li class="footer__elemento">Nuestras tiendas</li>
-                <li class="footer__elemento">Quiero ser franquiciado</li>
-                <li class="footer__elemento">Anuncie aqui</li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Quienes somos</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Politica de privacidad</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Programa de fidelidad</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Nuestras tiendas</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Quiero ser franquiciado</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Anuncie aqui</a> 
+                </li>
             </ul>
             <form action="" class="footer__formulario">
-                <div class="input__container">
-                    <input type="text" placeholder="Nombre" class="input">
-                    <label for="" class="input-label">Nombre</label>
+                <h3 class="footer__formulario-titulo">Hable con nosotros</h3>
+                <div class="input-container">
+                    <input type="text" id="nombre" placeholder="Nombre" class="input">
+                    <label for="nombre" class="input-label">Nombre</label>
                 </div>
-                <div class="input__container">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                <div class="input-container">
+                    <textarea name="" id="mensaje" cols="30" rows="10" class="textarea" placeholder="Escribe tu mensaje"></textarea>
+                    <label for="mensaje" class="input-label">Escribe tu mensaje</label>
                 </div>
+                <button type="submit" class="boton boton__principal">Enviar mensaje</button>
             </form>
         </div>
         <div class="footer__creador">

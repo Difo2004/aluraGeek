@@ -5,18 +5,18 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
     /* padding: 60px 0px 0px; */
 }
 
 .seccion {
     display: flex;
     flex-direction: column;
-    width: 85%;
     margin-top: 60px;
-    
 }
 
 .seccion__encabezado {
+    padding: 5px 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,6 +42,7 @@
     flex-direction: column;
     justify-content: space-around;
     height: 260px;
+    margin: auto 5px;
 }
 
 .seccion__elementos-imagen {
@@ -58,4 +59,42 @@
 .seccion__elementos-precio {
     font: bold 18px var(--fuente-principal)
     /* font: bold 1.12rem var(--fuente-principal) */
+}
+
+@media screen and (max-width: 1180px) {
+    .seccion__elementos:nth-child(n + 6) {
+        display: none;
+    }
+
+    .seccion__elementos-imagen {
+        width:  164px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+
+    .seccion__titulo {
+        font-size: 1.5rem;
+    }
+
+    .seccion__elementos:nth-child(n + 5) {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .seccion__elementos {
+        margin: auto 4px;
+    }
+    .seccion__elementos-imagen {
+        width: 156px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .seccion__elementos:nth-child(n + 4) {
+        display: none;
+    }
 }

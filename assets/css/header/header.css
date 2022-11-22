@@ -16,7 +16,7 @@
     padding: 10px;
 }
 
-.header__logo img {
+.header__logo {
     width: 8.5rem;
 }
 
@@ -46,4 +46,10 @@
 .header__descripcion {
     color: var(--body-background);
     font: bold 1.15rem var(--fuente-principal);
+}
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        width: 7.25rem;
+    }
 }
