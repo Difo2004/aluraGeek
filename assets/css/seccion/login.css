@@ -1,0 +1,36 @@
+.contenido {
+    display: flex;
+    background: #E5E5E5;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.contenido__formulario {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 230px;
+}
+
+.contenido__formulario > .formulario-titulo {
+    text-align: center;
+}
+
+.contenido__formulario > .input-container, 
+.contenido__formulario > .boton__principal {
+    width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+
+    .contenido__formulario {
+        width: 300px;
+        align-items: center ;
+    }
+
+    .contenido__formulario > .boton__principal {
+        width: 60%;
+    }
+}

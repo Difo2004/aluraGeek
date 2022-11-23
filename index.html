@@ -8,18 +8,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="./assets/css/base/reset.min.css">
     <link rel="stylesheet" href="./assets/css/base/normalize.min.css">
-    <!-- <link rel="stylesheet" href="./assets/css/base/base.css"> -->
+
     <link rel="stylesheet" href="/assets/css/components/components.css">
-    <link rel="stylesheet" href="/assets/css/header/header.css">
+    <link rel="stylesheet" href="/assets/css/header/inicio.css">
     <link rel="stylesheet" href="/assets/css/seccion/seccion.css">
-    <link rel="stylesheet" href="/assets/css/footer/footer.css">
 </head>
 <body>
     <header class="header">
         <div class="header__menu">
             <nav class="header__nav">
                 <h1 class="header__principal">
-                    <img  class="header__logo" src="./assets/img/Logo.png" alt="Logo de la pagina web">
+                    <a href="/" class="header__enlace">
+                        <img  class="header__logo" src="/assets/img/Logo.png" alt="Logo de la pagina web">
+                    </a>
                 </h1>
                 <form class="header__barraBusqueda">
                     <input type="search" class="header__input" placeholder="¿Qué deseas buscar?">
@@ -28,7 +29,9 @@
                     </button>
                 </form>
             </nav>
-            <button type="button" class="header__login boton">Login</button>
+            <button type="button" class="header__login boton">
+                <a href="/screens/login.html" class="header__enlace">Login</a>
+            </button>
             <button type="button" class="header__search">
                 <i class="fa-solid fa-magnifying-glass"></i>
             </button>
@@ -46,7 +49,7 @@
             <div class="seccion__encabezado">
                 <h3 class="seccion__titulo">Star Wars</h3>
                 <p class="seccion__verTodo">
-                    <a href="#" class="seccion__enlace">Ver todo   <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="/screens/productos.html" class="seccion__enlace">Ver todo   <i class="fa-solid fa-arrow-right"></i></a>
                 </p>
             </div>
             <ul class="seccion__cuerpo">
@@ -104,7 +107,7 @@
             <div class="seccion__encabezado">
                 <h3 class="seccion__titulo">Consolas</h3>
                 <p class="seccion__verTodo">
-                    <a href="#" class="seccion__enlace">Ver todo     <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="/screens/productos.html" class="seccion__enlace">Ver todo   <i class="fa-solid fa-arrow-right"></i></a>
                 </p>
             </div>
             <ul class="seccion__cuerpo">
@@ -162,7 +165,7 @@
             <div class="seccion__encabezado">
                 <h3 class="seccion__titulo">Diversos</h3>
                 <p class="seccion__verTodo">
-                    <a href="#" class="seccion__enlace">Ver todo     <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="/screens/productos.html" class="seccion__enlace">Ver todo   <i class="fa-solid fa-arrow-right"></i></a>
                 </p>
             </div>
             <ul class="seccion__cuerpo">
@@ -241,7 +244,7 @@
                 </li>
             </ul>
             <form action="" class="footer__formulario">
-                <h3 class="footer__formulario-titulo">Hable con nosotros</h3>
+                <h3 class="formulario-titulo">Hable con nosotros</h3>
                 <div class="input-container">
                     <input type="text" id="nombre" placeholder="Nombre" class="input">
                     <label for="nombre" class="input-label">Nombre</label>
@@ -254,7 +257,7 @@
             </form>
         </div>
         <div class="footer__creador">
-
+            <h2 class="footer__creador-titulo">Hecho por Manuel José Difó Lima - 2022</h2>
         </div>
     </footer>
 </body>
