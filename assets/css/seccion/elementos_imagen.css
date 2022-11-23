@@ -1,0 +1,87 @@
+
+/* Star Wars */
+.seccion__elementos:nth-child(1) .elementos_star-wars {
+    background: url("/assets/img/Star Wars/1.png");
+}
+
+.seccion__elementos:nth-child(2) .elementos_star-wars {
+    background: url("/assets/img/Star Wars/2.png");
+}
+
+.seccion__elementos:nth-child(3) .elementos_star-wars {
+    background: url("/assets/img/Star Wars/3.png");
+}
+
+.seccion__elementos:nth-child(4) .elementos_star-wars {
+    background: url("/assets/img/Star Wars/4.png");
+}
+
+.seccion__elementos:nth-child(5) .elementos_star-wars {
+    background: url("/assets/img/Star Wars/5.png");
+}
+
+.seccion__elementos:nth-child(6) .elementos_star-wars {
+    background: url("/assets/img/Star Wars/6.png");
+}
+
+/* Consolas */
+.seccion__elementos:nth-child(1) .elementos_consolas, 
+.seccion__elementos:nth-child(7) .seccion__elementos-imagen {
+    background: url("/assets/img/Consolas/1.png");
+}
+
+.seccion__elementos:nth-child(2) .elementos_consolas, 
+.seccion__elementos:nth-child(8) .seccion__elementos-imagen {
+    background: url("/assets/img/Consolas/2.png");
+}
+
+.seccion__elementos:nth-child(3) .elementos_consolas,
+.seccion__elementos:nth-child(9) .seccion__elementos-imagen {
+    background: url("/assets/img/Consolas/3.png");
+}
+
+.seccion__elementos:nth-child(4) .elementos_consolas,
+.seccion__elementos:nth-child(10) .seccion__elementos-imagen {
+    background: url("/assets/img/Consolas/4.png");
+}
+
+.seccion__elementos:nth-child(5) .elementos_consolas,
+.seccion__elementos:nth-child(11) .seccion__elementos-imagen {
+    background: url("/assets/img/Consolas/5.png");
+}
+
+.seccion__elementos:nth-child(6) .elementos_consolas,
+.seccion__elementos:nth-child(12) .seccion__elementos-imagen {
+    background: url("/assets/img/Consolas/6.png");
+}
+
+/* Diversos */
+.seccion__elementos:nth-child(1) .elementos_diversos,
+.seccion__elementos:nth-child(13) .seccion__elementos-imagen {
+    background: url("/assets/img/Diversos/1.png");
+}
+
+.seccion__elementos:nth-child(2) .elementos_diversos,
+.seccion__elementos:nth-child(14) .seccion__elementos-imagen {
+    background: url("/assets/img/Diversos/2.png");
+}
+
+.seccion__elementos:nth-child(3) .elementos_diversos,
+.seccion__elementos:nth-child(15) .seccion__elementos-imagen {
+    background: url("/assets/img/Diversos/3.png");
+}
+
+.seccion__elementos:nth-child(4) .elementos_diversos,
+.seccion__elementos:nth-child(16) .seccion__elementos-imagen {
+    background: url("/assets/img/Diversos/4.png");
+}
+
+.seccion__elementos:nth-child(5) .elementos_diversos,
+.seccion__elementos:nth-child(17) .seccion__elementos-imagen {
+    background: url("/assets/img/Diversos/5.png");
+}
+
+.seccion__elementos:nth-child(6) .elementos_diversos,
+.seccion__elementos:nth-child(18) .seccion__elementos-imagen {
+    background: url("/assets/img/Diversos/6.png");
+}

@@ -20,4 +20,9 @@
     --footer-contenido-width: 270px;
 
     --input-placeholder-color: #A2A2A2;
+
+    --elemento-tamanho-imagen: 176px;
+    --cantidad-elementos: 6;
+    /* --adicional: 0px; */
+
 }

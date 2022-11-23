@@ -1,9 +1,11 @@
 @import url("../../base/_variables.css");
+/* @import url("./elementos_imagen.css"); */
 
 .apartados {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: #E5E5E5;
     justify-content: center;
     width: 100%;
     padding-top: 20px;
@@ -47,8 +49,20 @@
 }
 
 .seccion__elementos-imagen {
-    width: 176px;
-    align-self: stretch;
+    width: var(--elemento-tamanho-imagen);
+    height: 174px;
+    display: flex;
+    /* padding: 10px; */
+    justify-content: flex-end;
+}
+
+.opciones_imagen {
+    color: var(--body-background);
+    font-size: 1.12rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 10px 0px;
+    width: 55px;
 }
 
 .seccion__elementos-nombre {
@@ -63,12 +77,12 @@
 }
 
 @media screen and (max-width: 1180px) {
-    .seccion__elementos:nth-child(n + 6) {
+    .vistazo .seccion__elementos:nth-child(n + 6) {
         display: none;
     }
 
-    .seccion__elementos-imagen {
-        width:  164px;
+    :root {
+        --elemento-tamanho-imagen: 164px;
     }
 }
 
@@ -78,11 +92,10 @@
         font-size: 1.5rem;
     }
 
-    .seccion__elementos:nth-child(n + 5) {
+    .vistazo .seccion__elementos:nth-child(n + 5) {
         display: none;
     }
 }
-
 
 @media screen and (max-width: 768px) {
     .apartados {
@@ -97,7 +110,7 @@
 @media screen and (max-width: 750px) {
 
     .seccion__elementos {
-        margin: auto 4px;
+        margin: auto 5px;
     }
     .seccion__elementos-imagen {
         width: 156px;
@@ -105,7 +118,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .seccion__elementos:nth-child(n + 4) {
+    .vistazo .seccion__elementos:nth-child(n + 4) {
         display: none;
     }
 }
@@ -122,11 +135,11 @@
         margin-bottom: 1rem;
     }
 
-    .seccion__elementos:nth-child(n + 4) {
+    .vistazo .seccion__elementos:nth-child(n + 4) {
         display: inline-flex;
     }
 
-    .seccion__elementos:nth-child(n + 6), .seccion__elementos:nth-child(n + 5) {
+    .vistazo .seccion__elementos:nth-child(n + 6), .vistazo .seccion__elementos:nth-child(n + 5) {
         display: none;
     }
 }
