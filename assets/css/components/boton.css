@@ -21,3 +21,42 @@
     background: var(--boton-color-hover);
     border-color: var(--boton-color-hover);
 }
+
+.boton__secundario {
+    background: none;
+    color: var(--boton-color);
+    width: 200px;
+}
+
+.boton__secundario:hover {
+    background: var(--boton-color);
+    color: var(--body-background);
+}
+
+.boton-enlace {
+    font-size: 1.05rem;
+    height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .boton__secundario   {
+        width: 170px;
+    }
+
+    .boton-enlace {
+        font-size: .92rem;
+        padding: .1rem .2rem;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .boton__secundario {
+        width: 160px;
+    }
+
+    .boton-enlace {
+        padding: .1rem .005rem;
+    }
+}

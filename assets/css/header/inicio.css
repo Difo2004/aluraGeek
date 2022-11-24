@@ -13,22 +13,6 @@
     padding: 10px 20px;
 }
 
-.header__login {
-    background: none;
-    color: var(--boton-color);
-}
-
-.header__login > .header__enlace {
-    font-size: 1.05rem;
-    padding: 5rem 3.5rem;
-    height: 20px;
-}
-
-.header__login:hover {
-    background: var(--boton-color);
-    color: var(--body-background);
-}
-
 .header__banner {
     background: url("/assets/img/banner.png") center / cover no-repeat;  
     height: 300px;
@@ -63,12 +47,6 @@
         height: 4.5rem;
         padding: 0px 20px;
         justify-content: space-between;
-    }
-
-    .header__login > .header__enlace {
-        font-size: .95rem;
-        padding: .1rem 3.5rem;
-        height: 2.8rem;
     }
 
     .header__banner {
@@ -121,6 +99,11 @@
 }
 
 @media screen and (max-width: 390px) {
+    
+    .header__menu {
+        padding: 10px;
+    }
+    
     .header__titulo {
         font-size: 1.6rem;
     }
@@ -128,4 +111,5 @@
     .header__descripcion {
         font-size: 0.88rem;
     }
+
 }

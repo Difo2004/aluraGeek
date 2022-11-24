@@ -56,15 +56,6 @@
     justify-content: flex-end;
 }
 
-.opciones_imagen {
-    color: var(--body-background);
-    font-size: 1.12rem;
-    display: flex;
-    justify-content: space-between;
-    margin: 12px 10px 0px;
-    width: 55px;
-}
-
 .seccion__elementos-nombre {
     color: var(--producto-titulo-color);
     /* font: 550 1.05rem var(--fuente-principal) */

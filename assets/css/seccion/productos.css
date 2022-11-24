@@ -26,6 +26,19 @@
     width: auto;
 } 
 
+.opciones_imagen {
+    color: var(--body-background);
+    font-size: 1.12rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 10px 0px;
+    width: 55px;
+}
+
+.opciones_imagen i {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 1180px) {
     :root {
         --elemento-tamanho-imagen: 164px;
