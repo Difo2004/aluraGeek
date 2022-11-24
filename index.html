@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="/assets/css/header/inicio.css">
     <link rel="stylesheet" href="/assets/css/seccion/seccion.css">
     <link rel="stylesheet" href="/assets/css/seccion/elementos_imagen.css">
+
+    <script defer type="module" src="/js/app.js"></script>
 </head>
 <body>
     <header class="header">
@@ -247,14 +249,14 @@
             <form action="" class="footer__formulario">
                 <h3 class="formulario-titulo">Hable con nosotros</h3>
                 <div class="input-container">
-                    <input type="text" id="nombre" placeholder="Nombre" class="input">
+                    <input type="text" id="nombre" placeholder="Nombre" class="input" required data-tipo="texto">
                     <label for="nombre" class="input-label">Nombre</label>
                 </div>
                 <div class="input-container">
-                    <textarea name="" id="mensaje" cols="30" rows="10" class="textarea" placeholder="Escribe tu mensaje"></textarea>
+                    <textarea name="" id="mensaje" cols="30" rows="10" class="textarea" placeholder="Escribe tu mensaje" required data-tipo="texto"></textarea>
                     <label for="mensaje" class="input-label">Escribe tu mensaje</label>
                 </div>
-                <button type="submit" class="boton boton__principal">Enviar mensaje</button>
+                <button type="submit" class="boton boton__principal" data-boton_mensaje>Enviar mensaje</button>
             </form>
         </div>
         <div class="footer__creador">

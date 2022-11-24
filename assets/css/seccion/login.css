@@ -3,19 +3,30 @@
     background: #E5E5E5;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    padding: 80px 10px;
 }
 
 .contenido__formulario {
-    width: 400px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 230px;
 }
 
-.contenido__formulario > .formulario-titulo {
+.formulario__login {
+    width: 400px;
+}
+
+.formulario__login-titulo {
     text-align: center;
+}
+
+.formulario__producto {
+    width: 740px;
+}
+
+.formulario__producto-titulo {
+    font-size: 1.95rem;
+    margin-bottom: 15px;
 }
 
 .contenido__formulario > .input-container, 
@@ -23,14 +34,21 @@
     width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+
+    .formulario__producto-titulo {
+        font-size: 1.38rem;
+    }
+}
+
 @media screen and (max-width: 450px) {
 
-    .contenido__formulario {
+    .formulario-login {
         width: 300px;
         align-items: center ;
     }
 
-    .contenido__formulario > .boton__principal {
+    .formulario-login > .boton__principal {
         width: 60%;
     }
 }
