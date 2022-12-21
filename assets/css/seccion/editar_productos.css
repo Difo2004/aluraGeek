@@ -1,0 +1,23 @@
+
+.opciones_imagen {
+    color: var(--body-background);
+    font-size: 1.12rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 10px 0px;
+    width: 55px;
+}
+
+.ajustar {
+    transition: .95s ease all;
+    cursor: pointer;
+    height: 18px;
+}
+
+.ajustar--borrar:hover {
+    color: #EA2027;
+}
+
+.ajustar--editar:hover {
+    color: #44bd32;
+}

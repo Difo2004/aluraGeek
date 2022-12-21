@@ -1,0 +1,61 @@
+
+.boton {
+    border: 1.5px solid var(--boton-color);
+    border-radius: 3px;
+    font-family: var(--fuente-principal);
+    cursor: pointer;
+    outline: none;
+    height: 50px;
+    transition: .8s ease all;
+}
+
+.boton__principal {
+    color: var(--body-background);
+    background: var(--boton-color);
+    padding: .5rem 1rem;
+    width: 150px;
+}
+
+.boton__principal:hover {
+    background: var(--boton-color-hover);
+    border-color: var(--boton-color-hover);
+}
+
+.boton__secundario {
+    background: none;
+    color: var(--boton-color);
+    width: 200px;
+}
+
+.boton__secundario:hover {
+    background: var(--boton-color);
+    color: var(--body-background);
+}
+
+.boton-enlace {
+    font-size: 1.05rem;
+    height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .boton__secundario   {
+        width: 170px;
+    }
+
+    .boton-enlace {
+        font-size: .92rem;
+        padding: .1rem .2rem;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .boton__secundario {
+        width: 160px;
+    }
+
+    .boton-enlace {
+        padding: .1rem .005rem;
+    }
+}

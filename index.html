@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es-Do">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="./assets/css/base/reset.min.css">
+    <link rel="stylesheet" href="./assets/css/base/normalize.min.css">
+
+    <link rel="stylesheet" href="./assets/css/components/components.css">
+    <link rel="stylesheet" href="./assets/css/header/inicio.css">
+    <link rel="stylesheet" href="./assets/css/seccion/seccion.css">
+    <link rel="stylesheet" href="./assets/css/seccion/elementos_imagen.css">
+
+    <script defer type="module" src="./js/app.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header__menu">
+            <nav class="header__nav">
+                <h1 class="header__principal">
+                    <a href="./" class="header__enlace">
+                        <img  class="header__logo" src="./assets/img/Logo.png" alt="Logo de la pagina web">
+                    </a>
+                </h1>
+                <form class="header__barraBusqueda">
+                    <input type="search" class="header__input" placeholder="¿Qué deseas buscar?">
+                    <button type="submit" class="header__submit">
+                        <i class="fa-solid fa-magnifying-glass"></i> 
+                    </button>
+                </form>
+            </nav>
+            <button type="button" class="boton boton__secundario">
+                <a href="./screens/login.html" class="boton-enlace">Login</a>
+            </button>
+            <button type="button" class="header__search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="header__banner">
+            <div class="header__iformacion">
+                <h2 class="header__titulo">Diciembre promocional</h2>
+                <p class="header__descripcion">Productos seleccionados con 33% de descuento</p>
+                <button type="button" class="boton boton__principal">Ver consolas</button>
+            </div>
+        </div>
+    </header>
+    <section class="apartados">
+        <div class="seccion vistazo">
+            <div class="seccion__encabezado">
+                <h3 class="seccion__titulo">Star Wars</h3>
+                <p class="seccion__verTodo">
+                    <a href="./screens/productos.html" class="seccion__enlace">Ver todo   <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+            <ul class="seccion__cuerpo"></ul>
+        </div>
+        <div class="seccion vistazo">
+            <div class="seccion__encabezado">
+                <h3 class="seccion__titulo">Consolas</h3>
+                <p class="seccion__verTodo">
+                    <a href="./screens/productos.html" class="seccion__enlace">Ver todo   <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+            <ul class="seccion__cuerpo"></ul>
+        </div>
+        <div class="seccion vistazo">
+            <div class="seccion__encabezado">
+                <h3 class="seccion__titulo">Diversos</h3>
+                <p class="seccion__verTodo">
+                    <a href="./screens/productos.html" class="seccion__enlace">Ver todo   <i class="fa-solid fa-arrow-right"></i></a>
+                </p>
+            </div>
+            <ul class="seccion__cuerpo"></ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__contenido">
+            <img src="./assets/img/Logo.png" alt="" loading="lazy" class="footer__logo">
+            <ul class="footer__info">
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Quienes somos</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Politica de privacidad</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Programa de fidelidad</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Nuestras tiendas</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Quiero ser franquiciado</a>
+                </li>
+                <li class="footer__elemento">
+                    <a href="#" class="footer__enlace">Anuncie aqui</a> 
+                </li>
+            </ul>
+            <form action="" class="footer__formulario">
+                <h3 class="formulario-titulo">Hable con nosotros</h3>
+                <div class="input-container">
+                    <input type="text" id="nombre" placeholder="Nombre" class="input" required data-tipo="nombre">
+                    <label for="nombre" class="input-label">Nombre</label>
+                    <!-- input-message-error -->
+                </div>
+                <div class="input-container">
+                    <textarea name="" id="mensaje" cols="30" rows="10" class="textarea" placeholder="Escribe tu mensaje" required data-tipo="mensaje"></textarea>
+                    <label for="mensaje" class="input-label">Escribe tu mensaje</label>
+                </div>
+                <button type="submit" class="boton boton__principal" data-boton_mensaje>Enviar mensaje</button>
+            </form>
+        </div>
+        <div class="footer__creador">
+            <h2 class="footer__creador-titulo">Hecho por Manuel José Difó Lima - 2022</h2>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,28 @@
+:root {
+
+    --fuente-principal: 'raleway', sans-serif;
+    --body-background: #fff;
+
+    --producto-titulo-color: #464646;
+
+    --banner-titulo-color: #f5f6fa;
+
+    /* Barra de busqueda */
+    --barraBusqueda-border: 8px;
+    --barraBusqueda-background: #d1d8e0;
+    --barraBusqueda-color: #7f8c8d;
+    --barraBusqueda-padding: 10px 15px;
+    /* Login */
+    --boton-color: #0652dd;
+    --boton-color-hover: #0984e3;
+
+    --footer-background: #EAF2FD;
+    --footer-contenido-width: 270px;
+
+    --input-placeholder-color: #A2A2A2;
+
+    --elemento-tamanho-imagen: 176px;
+    --cantidad-elementos: 6;
+    /* --adicional: 0px; */
+
+}
